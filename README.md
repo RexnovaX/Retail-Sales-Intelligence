@@ -46,6 +46,15 @@ Display cases show an average turnover of **33 daily units per product**.
 ---
 
 ## 🚀 Repository Structure
-*   `Scripts/`: Core scripts for database setup and data auditing.
-*   `Retail-Sales-Intelligence`: The `.pbix` interactive dashboard file.
-*   `Documentation/`: Detailed breakdown of metrics and business logic.
+
+The project is organized into clear modules for data engineering, analysis, and visualization:
+
+*   **`Assets/`**: Contains visual documentation of the project.
+    *   `Dashboard_Screenshots/`: High-resolution images of all report pages.
+    *   `Project_Demo.mp4`: A video walkthrough demonstrating the interactive features and filters.
+*   **`Scripts/`**: The core technical logic of the project.
+    *   `01_database_setup.sql`: DDL and DML scripts for PostgreSQL schema creation and data insertion.
+    *   `02_business_queries.sql`: Advanced SQL queries for data auditing and business insight extraction.
+    *   `03_dax_measures.md`: Detailed documentation of all DAX formulas, calculated columns, and business logic used in Power BI.
+*   **`Retail-Sales-Intelligence.pbix`**: The master Power BI Desktop file containing the data model and interactive visualizations.
+*   **`README.md`**: Project overview, business analysis, and technical documentation.
